@@ -1,0 +1,65 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  color: rgba(33, 37, 41, 0.82);
+}
+
+.menu .nav-item a {
+  background-color: green;
+  border-radius: 20px;
+  height: 30px;
+  color: #ffffff !important;
+  line-height: 0.8;
+  margin-right: 10px;
+}
+.menu .form-control {
+  border-right: none !important;
+  border-radius: 20px;
+}
+.menu .input-group-text {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.hero-section .highlight {
+  color: #955121;
+  font-weight: 600;
+  font-size: 35px;
+}
+.hero-section .hero-highlight {
+  color: rgba(0, 128, 0, 0.75);
+  font-size: 75px;
+  font-weight: 700;
+}
+.hero-section .hero-sentence-highlight {
+  color: rgba(0, 128, 0, 0.75);
+}
+.hero-section .membership li {
+  list-style: none;
+  width: 160px;
+  display: inline;
+  border-right: rgba(0, 128, 0, 0.75);
+  margin-right: 10px;
+  padding-right: 5px;
+}
+.hero-section .cta-btn {
+  background-color: #955121;
+  border: none;
+  border-radius: 22px;
+  color: #fff;
+  padding: 6px;
+  width: 130px;
+  height: 45px;
+}
+.hero-section .hero-vid-img {
+  width: 300px;
+}
+
+/*# sourceMappingURL=static.css.map */

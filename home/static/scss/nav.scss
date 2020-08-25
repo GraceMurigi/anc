@@ -1,0 +1,26 @@
+.menu {
+  .nav-item {
+    a {
+      background-color: green;
+
+      border-radius: 20px;
+      height: 30px;
+      color: #ffffff !important;
+      line-height: 0.8;
+      margin-right: 10px;
+    }
+  }
+  .form-control {
+    border-right: none !important;
+    border-radius: 20px;
+  }
+  .input-group-text {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+}
+.logo {
+  img {
+    width: 200px;
+  }
+}

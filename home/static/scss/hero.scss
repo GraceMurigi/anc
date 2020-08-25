@@ -1,0 +1,38 @@
+.hero-section {
+  .highlight {
+    color: $primary-color-brown;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .hero-highlight {
+    color: $secondary-color-green;
+    font-size: 75px;
+    font-weight: 700;
+  }
+
+  .hero-sentence-highlight {
+    color: $secondary-color-green;
+  }
+  .membership {
+    li {
+      list-style: none;
+      width: 160px;
+      display: inline;
+      border-right: $secondary-color-green;
+      margin-right: 10px;
+      padding-right: 5px;
+    }
+  }
+  .cta-btn {
+    background-color: $primary-color-brown;
+    border: none;
+    border-radius: 22px;
+    color: #fff;
+    padding: 6px;
+    width: 130px;
+    height: 45px;
+  }
+  .hero-vid-img {
+    width: 300px;
+  }
+}

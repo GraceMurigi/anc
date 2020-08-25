@@ -16,6 +16,57 @@ Delete the line below if you're just getting started and want to remove the welc
 {% comment %}
 Delete the line below if you're just getting started and want to remove the welcome screen!
 {% endcomment %}
-{% include 'home/welcome_page.html' %}
+{% include 'includes/nav.html' %}
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h2 class="highlight mt-5">
+                        BECOME A
+                    </h2>
+                    <h1 class="hero-highlight mt-2">
+                        MEMBER
+                    </h1>
+                    <p class="mt-2">
+                        Become part of Kenya's fast3est growing political party.
+                    </p>
+                    <p class="hero-sentence-highlight mt-2">
+                        Which membership is right for you?
+                    </p>
+                    <ul class="membership">
+                        <li>
+                            Ordinary
+                        </li>
+                        <li>Bronze Life Member</li>
+                        <li>
+                            Silver Life Member
+                        </li>
+                        <br class="mt-2">
+                        <li>
+                            Gold Life Member
+                        </li>
+                        <li>
+                            Platinum Life Member
+                        </li>
+                        <br class="mt-2">
+                        <li>
+                            Platinum Plus Life Member
+                        </li>
+                    </ul>
+                    <button class="cta-btn">
+                        Register
+                    </button>
+                    <br>
+                    <img class="hero-vid-img mt-2" src="{% static 'images/musalia-vid.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="{% static 'images/hero-img.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
 {% endblock content %}
