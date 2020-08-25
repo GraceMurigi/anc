@@ -1,0 +1,21 @@
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/donate.css' %}">
+{% endblock %}
+
+
+<section class="container p-5">
+    <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+        <div class="text-center">
+            <img src="{% static 'images/donate.png' %}"  width="100" alt="donate icon">
+        </div>
+        <div><h2 class="d-inline green-text donate-text">DONATE</h2></div>
+        <div class="vertical-line-green"></div>
+        <div class="text-center">
+                <div><img src="{% static 'images/mpesa.png' %}" width="100"  alt="lipa na mpesa icon"></div>
+                <h4 class="text-danger font-weight-bold">116677</h4>
+        </div>
+    </div>
+</section>
+

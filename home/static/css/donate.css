@@ -1,0 +1,27 @@
+ 
+.vertical-line-green {
+    align-self: center;
+    border-left: 2px solid #83ba51;
+    height: 60px;
+    margin: 0 50px;
+
+}
+
+.donate-text {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.mpesa-text { 
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.green-text {
+    color: #83ba51;
+
+}
+
+
+
+
